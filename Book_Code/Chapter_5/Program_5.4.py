@@ -11,7 +11,7 @@ def main():
         if(each_character == 'a' or each_character == 'e' or each_character == 'i' or each_character == 'o'
                 or each_character == 'u'):
             vowels += 1
-        elif "a" < each_character < "z":
+        elif "a" < each_character <= "z":
             consonants += 1
         elif each_character == " ":
             blanks += 1
